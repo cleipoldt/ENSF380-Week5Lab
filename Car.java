@@ -6,10 +6,11 @@
 
 package edu.ucalgary.oop;
 
-import org.junit.Test;
-import static org.junit.Assert.*;
+// import org.junit.Test;
+// import static org.junit.Assert.*;
+// import edu.ucalgary.oop.*;
 
-public class Car() {
+public class Car {
     private String model;
     private Driver driver;
     private Engine engine;
