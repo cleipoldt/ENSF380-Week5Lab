@@ -1,6 +1,6 @@
 package edu.ucalgary.car;
 
-public class engine {
+public class Engine {
     private String engineType;
 
     piblic Engine(){
