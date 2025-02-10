@@ -6,10 +6,6 @@
 
 package edu.ucalgary.oop;
 
-// import org.junit.Test;
-// import static org.junit.Assert.*;
-// import edu.ucalgary.oop.*;
-
 public class Car {
     private String model;
     private Driver driver;
@@ -22,8 +18,8 @@ public class Car {
     }
 
     public Car copy(boolean deepCopy) {
-        // copy constructors in other classes, use copy constructor here
         if (deepCopy) {
+            // deep copy, copy constructors in other classes, use those copy constructors here
             Car newCar = new Car(this.model, new Driver(this.driver), new Engine(this.engine));
             return newCar;
         } else {
