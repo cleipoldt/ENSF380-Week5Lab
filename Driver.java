@@ -7,25 +7,21 @@
 package edu.ucalgary.oop;
 
 public class Driver {
-    private String Name;
+    private String name;
     
-    public Driver(){
+    public Driver(String name){
+        this.name = name;
     }
 
-    public Driver(String Name){
-        this.Name = Name;
+    public Driver(Driver other){
+        this.name = other.name;
     }
 
-    public Driver(Driver originalDriver){
-        this.Name = originalDriver.Name;
-    }
-
-
-    public void setName(String Name){
-        this.Name = Name;
+    public void setName(String name){
+        this.name = name;
     }
     public String getName(){
-        return Name;
+        return name;
     }
 }
 
